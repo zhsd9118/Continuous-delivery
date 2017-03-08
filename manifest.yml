@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Qiao cognitive app 1
+  host: Qiao-cognitive-app-1
+  disk_quota: 1024M
+  services:
+  - Qiao cognitive app 1-personality_insights
